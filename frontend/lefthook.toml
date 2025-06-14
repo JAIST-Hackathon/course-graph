@@ -1,0 +1,6 @@
+lefthook = "pnpm exec lefthook"
+
+[pre-commit.commands.fmt]
+glob = "**/*.{ts,tsx,js,jsx,json,css,md,mdx}"
+run = "pnpm exec biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}"
+stage_fixed = true
