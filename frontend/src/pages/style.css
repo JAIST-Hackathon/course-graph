@@ -141,6 +141,8 @@ tr:nth-child(even) {
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    /* Additional styles from the second definition */
+    /* Add any missing properties here */
 }
 
 .network-container {
