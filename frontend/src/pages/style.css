@@ -70,6 +70,7 @@ tr:nth-child(even) {
 
 /* 読み込みメッセージのスタイル */
 .loading {
+    display: none;
     font-size: 1.2em;
     color: #555;
     text-align: center;
@@ -78,6 +79,7 @@ tr:nth-child(even) {
     border: 1px solid #cceeff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
 }
 
 /* コントロールパネル */
