@@ -19,3 +19,11 @@ ReactDOM.createRoot(rootElement).render(
 		<App />
 	</React.StrictMode>,
 );
+
+// vis api のグローバル型宣言
+declare global {
+	interface Window {
+		vis: any;
+		Papa: any;
+	}
+}

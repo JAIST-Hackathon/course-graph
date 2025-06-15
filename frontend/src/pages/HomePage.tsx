@@ -13,8 +13,10 @@ import { ArrowRight } from "lucide-react";
  * 新しい機能を追加する場合はここに追加
  */
 const features = [
-	{ title: "ユーザー一覧", desc: "ユーザー API を呼び出す", path: "/users" },
-	{ title: "Ping API", desc: "サーバー疎通チェック", path: "/ping" },
+	// { title: "ユーザー一覧", desc: "ユーザー API を呼び出す", path: "/users" },
+	// { title: "Ping API", desc: "サーバー疎通チェック", path: "/ping" },
+	{ title: "メンバー", desc: "", path: "/member" },
+	{ title: "科目関連図", desc: "JAIST シラバスの関連科目、履修条件", path: "/subjectGraph" }
 ];
 
 /**
