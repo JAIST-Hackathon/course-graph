@@ -180,24 +180,7 @@ function displayGraph(nodes = nodesAllGlobal, edges = edgesGlobal) {
         // クリックした講義のシラバス情報を表示
         writeClassInfo(this.getNodeAt(params.pointer.DOM));
 
-        // // シラバスデータから対応する講義のデータを抽出
-        // const record = SyllabusArray.find(row => row.講義名称 === this.getNodeAt(params.pointer.DOM));
-        // // HTMLの表の対応要素に値を書き込み
-        // document.getElementById("syllabusUrl").innerText = this.getNodeAt(params.pointer.DOM);
-        // document.getElementById("syllabusUrl").innerText = record.URL;
-        // document.getElementById("classCode").innerText = record.講義コード;
-        // document.getElementById("className").innerText = record.講義名称;
-        // document.getElementById("regulationSubjectName").innerText = record.学則科目名称;
-        // document.getElementById("campus").innerText = record.校地;
-        // document.getElementById("instructor").innerText = record.代表教員;
-        // document.getElementById("subjectGroup").innerText = record.科目群;
-        // document.getElementById("subjectCode").innerText = record.科目コード;
-        // document.getElementById("language").innerText = record.授業実践言語;
-        // document.getElementById("term").innerText = record.開講時期;
-        // console.log(
-        //     "click event, getNodeAt returns: " +
-        //     this.getNodeAt(params.pointer.DOM)
-        // );
+        // Click event listener remains functional without commented-out code.
     });
 }
 
