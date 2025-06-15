@@ -9,7 +9,7 @@ const loadingMessage = document.getElementById('loadingMessage');
 
 // グローバルのノード，エッジ，ネットワーク
 // これをグラフ表示に使う
-let nodesAllGlobal, nodesGlobal;
+let nodesAllGlobal;
 let edgesGlobal;
 let network;
 
