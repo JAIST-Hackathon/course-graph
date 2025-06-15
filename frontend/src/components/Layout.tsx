@@ -20,8 +20,10 @@ import { NavLink, Outlet } from "react-router-dom";
  */
 const links = [
 	{ to: "/", label: "Home" },
-	{ to: "/users", label: "Users" },
-	{ to: "/ping", label: "Ping" },
+	// { to: "/users", label: "Users" },
+	// { to: "/ping", label: "Ping" },
+	{ to: "/member", label: "Member" },
+	{ to: "/subjectGraph", label: "subjectGraph" }
 ];
 
 /**
