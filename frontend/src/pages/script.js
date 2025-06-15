@@ -135,8 +135,7 @@ function writeClassInfo(className) {
     // シラバスデータから対応する講義のデータを抽出
     const record = SyllabusArray.find(row => row.講義名称 === className);
     // HTMLの表の対応要素に値を書き込み
-    document.getElementById("syllabusUrl").innerText = className;
-    document.getElementById("syllabusUrl").innerText = record.URL;
+    document.getElementById("syllabusUrl").innerText = record.URL || className;
     document.getElementById("classCode").innerText = record.講義コード;
     document.getElementById("className").innerText = record.講義名称;
     document.getElementById("regulationSubjectName").innerText = record.学則科目名称;
